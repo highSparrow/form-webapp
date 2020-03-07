@@ -3,7 +3,6 @@ Form utilities for the web app.
 """
 from collections import namedtuple
 from textwrap import indent, dedent
-import numpy as np
 from enum import Enum, auto
 
 class FormInputs(Enum):
@@ -32,7 +31,7 @@ def get_input_elem(*args):
     elif f_type is FormInputs.NUMERIC:
         return (f"<input type='number' class='form-control' id='{name}'"
                 f" name='{name}' value='{default or ''}' />")
-    
+
     elif f_type is FormInputs.TEXTAREA:
         return (f"<textarea class='form-control' id='{name}' name='{name}'>"
                 f"{default or ''}</textarea>")
