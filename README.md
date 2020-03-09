@@ -1,5 +1,8 @@
 # CS 41 Form Web App Template
 
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/stanfordpython/form-webapp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stanfordpython/form-webapp/context:python)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/stanfordpython/form-webapp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stanfordpython/form-webapp/context:javascript)
+
 ## Overview
 This project is a framework for a light-weight, customizable web-app which presents as a form where the user can input information which will be processed by a Python function. It's designed for CS 41 students to be able to add a front-end to their applications, where the input is simple.
 
